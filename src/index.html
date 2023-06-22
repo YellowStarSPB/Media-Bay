@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Arsenal&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./css/styles.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="container">
+            <header class="header">
+
+                <div class="mobile-menu">
+                    <button class="mobile-menu__btn">
+                        <img src="./assets/img/popupSlider/close.svg" alt="close">
+                    </button>
+                    <ul class="menu">
+                        <li class="menu-item">
+                            <a href="#product">продукция</a>
+                        </li>
+                        <li class="menu-item"><a href="#feed-back">оплата</a></li>
+                        <li class="menu-item"><a href="#info">доставка</a></li>
+                        <li class="menu-item"><a href="#info">о компании</a></li>
+                    </ul>
+                </div>
+
+                <ul class="header__menu">
+                    <li class="header__menu-item"><a href="#product">продукция</a></li>
+                    <li class="header__menu-item"><a href="#feed-back">оплата</a></li>
+                    <li class="header__menu-item"><a href="#info">доставка</a></li>
+                    <li class="header__menu-item"><a href="#info">о компании</a></li>
+                </ul>
+                <a href="#" class="header__logo">
+                    <img src="./assets/img/logo.svg" alt="logo" />
+                </a>
+                <div class="header__info">
+                    <a class="info-number" href="tel:tel:+7 (812) 502-06-52" type=""
+                        >+7 (812) 502-06-52</a
+                    >
+                    <div class="info-social">
+                        <a href="#"><img src="./assets/img/vk.svg" alt="VK" /></a>
+                        <a href="#"
+                            ><img src="./assets/img/telegram.svg" alt="telegram"
+                        /></a>
+                        <a href="#"
+                            ><img src="./assets/img/whatsapp.svg" alt="whatsapp"
+                        /></a>
+                        <a href="#"
+                            ><img src="./assets/img/inst.svg" alt="instagram"
+                        /></a>
+                    </div>
+                </div>
+                <button class="nav-btn">
+                    <img src="./assets/img/naviconbtn.svg" alt="nav button" />
+                </button>
+            </header>
+
+            <main>
+                <section class="preview">
+                    <div class="titleWrapper">
+                        <h1 class="titleWrapper__title">
+                            Изделия из стекла и стеклянные конструкции
+                        </h1>
+                        <p class="titleWrapper__subtitle">На заказ в Санкт-Петербурге</p>
+                        <button class="titleWrapper__btn">
+                            <a href="#">Оформить заявку</a>
+                        </button>
+                    </div>
+
+                    <div class="preview__slider">
+                        <div class="preview__slider-track">
+                            <div class="item">
+                                <img
+                                    class="item__img"
+                                    src="./assets/img/firstSlider/photo1.png"
+                                    alt="photo1"
+                                />
+                                <div class="item__info">
+                                    <p class="item__info-text">
+                                        <span class="item__info-count">01</span>
+                                        <span class="item__info-line"></span>
+                                        Стеклянные двери и зеркала
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img
+                                    class="item__img"
+                                    src="./assets/img/firstSlider/photo2.png"
+                                    alt="photo1"
+                                />
+                                <div class="item__info">
+                                    <p class="item__info-text">
+                                        <span class="item__info-count">02</span>
+                                        <span class="item__info-line"></span>
+                                        Душевые перегородки
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="slider__button">
+                            <img src="./assets/img/firstSlider/arrow.svg" alt="arrow" />
+                        </button>
+                    </div>
+                    <div class="btnWrapper">
+                        <button class="titleWrapper__btn show">
+                            <a href="#">Оформить заявку</a>
+                        </button>
+                    </div>
+                </section>
+
+                <section class="products">
+                    <h2 id="product">продукция</h2>
+                    <div class="accordions-wrapper">
+                        <div class="first-accordion">
+                            <div class="accordion__item">
+                                <div class="accordion__title">
+                                    <p>стеклянные перегородки</p>
+                                    <img
+                                        class="accordion__img"
+                                        src="./assets/img/accordion-arrow.svg"
+                                        alt="arrow"
+                                    />
+                                </div>
+                                <div class="accordion__body">
+                                    <p>какой-то текст</p>
+                                    <img
+                                        class="accordion__big-img"
+                                        src="./assets/img/accordion-big-arrow.svg"
+                                        alt="arrow"
+                                    />
+                                </div>
+                            </div>
+
+                            <div class="accordion__item">
+                                <div class="accordion__title">
+                                    <p>душевые перегородки</p>
+                                    <img
+                                        class="accordion__img"
+                                        src="./assets/img/accordion-arrow.svg"
+                                        alt="arrow"
+                                    />
+                                </div>
+                                <div class="accordion__body">
+                                    <p>какой-то текст</p>
+                                    <img
+                                        class="accordion__big-img"
+                                        src="./assets/img/accordion-big-arrow.svg"
+                                        alt="arrow"
+                                    />
+                                </div>
+                            </div>
+
+                            <div class="accordion__item">
+                                <div class="accordion__title">
+                                    <p>облицовка стен стеклом</p>
+                                    <img
+                                        class="accordion__img"
+                                        src="./assets/img/accordion-arrow.svg"
+                                        alt="arrow"
+                                    />
+                                </div>
+                                <div class="accordion__body">
+                                    <p>какой-то текст</p>
+                                    <img
+                                        class="accordion__big-img"
+                                        src="./assets/img/accordion-big-arrow.svg"
+                                        alt="arrow"
+                                    />
+                                </div>
+                            </div>
+
+                            <div class="accordion__item">
+                                <div class="accordion__title">
+                                    <p>стеклянные полы</p>
+                                    <img
+                                        class="accordion__img"
+                                        src="./assets/img/accordion-arrow.svg"
+                                        alt="arrow"
+                                    />
+                                </div>
+                                <div class="accordion__body">
+                                    <p>какой-то текст</p>
+                                    <img
+                                        class="accordion__big-img"
+                                        src="./assets/img/accordion-big-arrow.svg"
+                                        alt="arrow"
+                                    />
+                                </div>
+                            </div>
+
+                            <div class="accordion__item">
+                                <div class="accordion__title">
+                                    <p>стеклянные потолки</p>
+                                    <img
+                                        class="accordion__img"
+                                        src="./assets/img/accordion-arrow.svg"
+                                        alt="arrow"
+                                    />
+                                </div>
+                                <div class="accordion__body">
+                                    <p>какой-то текст</p>
+                                    <img
+                                        class="accordion__big-img"
+                                        src="./assets/img/accordion-big-arrow.svg"
+                                        alt="arrow"
+                                    />
+                                </div>
+                            </div>
+
+                            <div class="accordion__item">
+                                <div class="accordion__title">
+                                    <p>стеклянные крыши</p>
+                                    <img
+                                        class="accordion__img"
+                                        src="./assets/img/accordion-arrow.svg"
+                                        alt="arrow"
+                                    />
+                                </div>
+                                <div class="accordion__body">
+                                    <p>какой-то текст</p>
+                                    <img
+                                        class="accordion__big-img"
+                                        src="./assets/img/accordion-big-arrow.svg"
+                                        alt="arrow"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="second-accordion">
+                            <div class="accordion__item">
+                                <div class="accordion__title">
+                                    <p>стеклянные ограждения</p>
+                                    <img
+                                        class="accordion__img"
+                                        src="./assets/img/accordion-arrow.svg"
+                                        alt="arrow"
+                                    />
+                                </div>
+                                <div class="accordion__body">
+                                    <p>какой-то текст</p>
+                                    <img
+                                        class="accordion__big-img"
+                                        src="./assets/img/accordion-big-arrow.svg"
+                                        alt="arrow"
+                                    />
+                                </div>
+                            </div>
+
+                            <div class="accordion__item">
+                                <div class="accordion__title">
+                                    <p>стеклянные козырьки и навесы</p>
+                                    <img
+                                        class="accordion__img"
+                                        src="./assets/img/accordion-arrow.svg"
+                                        alt="arrow"
+                                    />
+                                </div>
+                                <div class="accordion__body">
+                                    <p>какой-то текст</p>
+                                    <img
+                                        class="accordion__big-img"
+                                        src="./assets/img/accordion-big-arrow.svg"
+                                        alt="arrow"
+                                    />
+                                </div>
+                            </div>
+
+                            <div class="accordion__item">
+                                <div class="accordion__title">
+                                    <p>стеклянные двери и зеркала</p>
+                                    <img
+                                        class="accordion__img"
+                                        src="./assets/img/accordion-arrow.svg"
+                                        alt="arrow"
+                                    />
+                                </div>
+                                <div class="accordion__body">
+                                    <p>какой-то текст</p>
+                                    <img
+                                        class="accordion__big-img"
+                                        src="./assets/img/accordion-big-arrow.svg"
+                                        alt="arrow"
+                                    />
+                                </div>
+                            </div>
+
+                            <div class="accordion__item">
+                                <div class="accordion__title">
+                                    <p>безрамное остекление беседок и террас</p>
+                                    <img
+                                        class="accordion__img"
+                                        src="./assets/img/accordion-arrow.svg"
+                                        alt="arrow"
+                                    />
+                                </div>
+                                <div class="accordion__body">
+                                    <p>какой-то текст</p>
+                                    <img
+                                        class="accordion__big-img"
+                                        src="./assets/img/accordion-big-arrow.svg"
+                                        alt="arrow"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="cases">
+                    <h2>кейсы</h2>
+                    <div class="wrapper">
+                        <div class="carousel">
+                            <div id="firstItem" class="carousel__item active-slide">
+                                <img
+                                    src="./assets/img/casesSlider/photo1.png"
+                                    alt="slide"
+                                />
+                                <p>Стеклянный тамбур</p>
+                            </div>
+                            <div class="carousel__item">
+                                <img
+                                    src="./assets/img/casesSlider/photo2.png"
+                                    alt="slide"
+                                />
+                                <p>Стеклянный тамбур</p>
+                            </div>
+                            <div class="carousel__item">
+                                <img
+                                    src="./assets/img/casesSlider/photo3.png"
+                                    alt="slide"
+                                />
+                                <p>Стеклянный тамбур</p>
+                            </div>
+                            <div class="carousel__item">
+                                <img
+                                    src="./assets/img/casesSlider/photo4.png"
+                                    alt="slide"
+                                />
+                                <p>Стеклянный тамбур</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="scroll-bar">
+                        <span class="scroll-bar__line"></span>
+                        <div class="scroll-bar__circle"></div>
+                    </div>
+                </section>
+
+                <section id="feed-back" class="form-section">
+                    <h2>Обратная связь</h2>
+                    <div class="form-wrapper">
+                        <p class="info-text">
+                            Вы можете задать вопрос, заказать выезд <br />
+                            менеджера или получить консультацию.
+                        </p>
+
+                        <form class="form">
+                            <div class="form__item">
+                                <label for="name">Имя</label>
+                                <input
+                                    placeholder="как к вам обращаться"
+                                    type="text"
+                                    name="name"
+                                    id="name"
+                                />
+                            </div>
+                            <div class="form__item">
+                                <label for="phone">Телефон</label>
+                                <input
+                                    placeholder="ваш контактный номер телефона"
+                                    type="tel"
+                                    name="phone"
+                                    id="phone"
+                                />
+                            </div>
+                            <div class="form__item">
+                                <label for="email">Почта</label>
+                                <input
+                                    placeholder="адрес  вашей электронной почты"
+                                    type="email"
+                                    name="email"
+                                    id="email"
+                                />
+                            </div>
+                            <div class="form__item">
+                                <label for="document">Сообщение</label>
+                                <input
+                                    placeholder="расскажите о вашем проекте"
+                                    type="document"
+                                    name="document"
+                                    id="document"
+                                />
+                                <div class="form__item-btn">
+                                    <input type="file" />
+                                    <button type="button">
+                                        <img
+                                            src="./assets/img/add-file-img.svg"
+                                            alt="add file"
+                                        />
+                                        <p>Прикрепить файл</p>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="form-footer">
+                                <p>
+                                    Заполняя форму, вы соглашаетесь на обработку
+                                    персональных данных.
+                                </p>
+                                <button>Отправить</button>
+                            </div>
+                        </form>
+                    </div>
+                </section>
+            </main>
+            <footer id="info" class="footer">
+                <div class="footer__info-block">
+                    <div class="info-block">
+                        <a href="#">Стеклянные перегородки</a>
+                        <a href="#">Душевые перегородки</a>
+                        <a href="#">Безрамное остекление</a>
+                        <a href="#">Стеклянные полы</a>
+                    </div>
+
+                    <div class="info-block">
+                        <a href="#">Стеклянные потолки</a>
+                        <a href="#">Стеклянные крыши</a>
+                        <a href="#">Стеклянные ограждения</a>
+                        <a href="#">Стеклянные козырьки и навесы</a>
+                    </div>
+
+                    <div class="info-block">
+                        <a href="#">Стеклянные тамбуры</a>
+                        <a href="#">Стеклянные двери и зеркала</a>
+                        <a href="#">Облицовка стен стеклом</a>
+                    </div>
+                    <ul class="header__menu footer__menu">
+                        <li class="header__menu-item"><a href="#">продукция</a></li>
+                        <li class="header__menu-item"><a href="#">оплата</a></li>
+                        <li class="header__menu-item"><a href="#">доставка</a></li>
+                        <li class="header__menu-item"><a href="#">о компании</a></li>
+                    </ul>
+                    <div class="company-info">
+                        <p>
+                            Россия, 195030, г. Санкт-Петербург, ул. <br />
+                            Коммуны, д. 67, литера БМ, помещение 10718
+                        </p>
+                        <a
+                            class="info-number_footer"
+                            href="tel:tel:+7 (812) 502-06-52"
+                            type=""
+                            >+7 (812) 502-06-52</a
+                        >
+                        <div class="info-social_footer">
+                            <a href="#"><img src="./assets/img/vk.svg" alt="VK" /></a>
+                            <a href="#"
+                                ><img src="./assets/img/telegram.svg" alt="telegram"
+                            /></a>
+                            <a href="#"
+                                ><img src="./assets/img/whatsapp.svg" alt="whatsapp"
+                            /></a>
+                            <a href="#"
+                                ><img src="./assets/img/inst.svg" alt="instagram"
+                            /></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__policy">
+                    <p>(с) «Стеклоника», 2022</p>
+                    <a href="#">Политика конфиденциальности</a>
+                    <a href="#" class="company-link">
+                        <p>Разработка -</p>
+                        <img src="./assets/img/logoMedia.svg" alt="company" />
+                    </a>
+                </div>
+
+                <div class="footer__info-block show1024">
+                    <div class="link-wrapper">
+                        <div class="info-block">
+                            <a href="#">Стеклянные перегородки</a>
+                            <a href="#">Душевые перегородки</a>
+                            <a href="#">Безрамное остекление</a>
+                            <a href="#">Стеклянные полы</a>
+                            <a href="#">Стеклянные потолки</a>
+                            <a href="#">Стеклянные крыши</a>
+                        </div>
+                        <div class="info-block">
+                            <a href="#">Стеклянные ограждения</a>
+                            <a href="#">Стеклянные козырьки и навесы</a>
+                            <a href="#">Стеклянные тамбуры</a>
+                            <a href="#">Стеклянные двери и зеркала</a>
+                            <a href="#">Облицовка стен стеклом</a>
+                        </div>
+                        <ul class="header__menu footer__menu show-in-footer">
+                            <li class="header__menu-item"><a href="#">продукция</a></li>
+                            <li class="header__menu-item"><a href="#">оплата</a></li>
+                            <li class="header__menu-item"><a href="#">доставка</a></li>
+                            <li class="header__menu-item"><a href="#">о компании</a></li>
+                        </ul>
+                    </div>
+                    <div class="company-wrapper">
+                        <div class="company-info-box">
+                            <p>
+                                Россия, 195030, г. Санкт-Петербург, ул. <br />
+                                Коммуны, д. 67, литера БМ, помещение 10718
+                            </p>
+                        </div>
+                        <div class="info-social_footer">
+                            <a
+                                class="info-number_footer"
+                                href="tel:tel:+7 (812) 502-06-52"
+                                type=""
+                                >+7 (812) 502-06-52</a
+                            >
+                            <div class="show1024-social">
+                                <a href="#"><img src="./assets/img/vk.svg" alt="VK" /></a>
+                                <a href="#"
+                                    ><img src="./assets/img/telegram.svg" alt="telegram"
+                                /></a>
+                                <a href="#"
+                                    ><img src="./assets/img/whatsapp.svg" alt="whatsapp"
+                                /></a>
+                                <a href="#"
+                                    ><img src="./assets/img/inst.svg" alt="instagram"
+                                /></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__policy show1024_policy">
+                    <p>(с) «Стеклоника», 2022</p>
+                    <a href="#">Политика конфиденциальности</a>
+                    <a href="#" class="company-link">
+                        <p>Разработка -</p>
+                        <img src="./assets/img/logoMedia.svg" alt="company" />
+                    </a>
+                </div>
+            </footer>
+        </div>
+
+        <div class="popupWrapper">
+            <div class="popup">
+                <div class="popup__left">
+                    <h2>Стеклянные зеркала</h2>
+                    <p>
+                        Основное отличие цельностеклянных перегородок от других систем в
+                        том, что они крепко зафиксированы сверху и снизу.
+                        <br />
+                        <br />
+                        Закалённоестекло толщиной 10 мм, зажимной профиль который
+                        фиксирует крепко конструкцию сверху и снизу, специальная
+                        фурнитура, напольный доводчик фиксирует дверь в положении 90
+                        градусов.
+                    </p>
+                    <button class="popup__btn">Оформить заявку</button>
+                </div>
+                <div class="popup__right">
+                    <div class="popup__slider">
+                        <div class="slider__track">
+                            <img src="./assets/img/popupSlider/photo1.png" alt="photo" />
+                            <img
+                                src="https://amk-stroy.su/wp-content/uploads/2020/01/svetliy-tsvet-v-interere-foto-2.png"
+                                alt="photo"
+                            />
+                            <img
+                                src="https://w-dog.ru/wallpapers/2/16/470944617781477/interer-stil-dizajn-gorod-dvuxurovnevyj-pentxaus-zhiloe-prostranstvo-balkon.jpg"
+                                alt="photo"
+                            />
+
+                            <img
+                                src="https://w.forfun.com/fetch/b1/b1b5c5a07821848c97c6c6f4075b6f4e.jpeg"
+                                alt="photo"
+                            />
+                            <img
+                                src="https://almode.ru/uploads/posts/2021-07/1626432436_39-almode_ru-p-uyutnii-interer-kvartiri-39.jpg"
+                                alt="photo"
+                            />
+                        </div>
+                    </div>
+                    <button class="popup__close-btn">
+                        <img src="./assets/img/popupSlider/close.svg" alt="close" />
+                    </button>
+                    <div class="popup__navigation-slide">
+                        <button id="next" class="navigation__btn next">
+                            <img src="./assets/img/popupSlider/arrow.svg" alt="next" />
+                        </button>
+                        <button disabled id="prev" class="navigation__btn prev disabled">
+                            <img src="./assets/img/popupSlider/arrow.svg" alt="prev" />
+                        </button>
+                    </div>
+                    <div class="popup__dots">
+                        <div class="dots active-dot"></div>
+                    </div>
+                </div>
+                <div class="show-in-800">
+                    <button class="btn__show-in-800">Оформить заявку</button>
+                </div>
+            </div>
+        </div>
+        <script defer src="./js/script.js"></script>
+        <script defer src="./js/popup.js"></script>
+        <script defer src="./js/accordion.js"></script>
+        <script defer src="./js/firstSlider.js"></script>
+    </body>
+</html>
