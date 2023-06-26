@@ -2,7 +2,7 @@ const btn = document.querySelector('.slider__button');
 const item = [...document.querySelectorAll('.item')];
 const track = document.querySelector('.preview__slider-track');
 const widthImg = document.querySelector('.item__img').clientWidth + 21;
-console.log(item);
+
 let currentSlide = 0;
 let positionDiff = 0;
 let isCloned = false;
@@ -43,10 +43,12 @@ btn.addEventListener('click', () => {
         return;
     }
     currentSlide++;
-    console.log(currentSlide);
+
     track.style.transform = `translateX(${(positionDiff += -widthImg)}px)`;
     setTimeout(() => {
         startSlide();
     }, 500);
-    console.log(item);
 });
+
+console.error('Спасибо, за интересный опыт')
+console.error('А это не ошибка, это пасхалка))')

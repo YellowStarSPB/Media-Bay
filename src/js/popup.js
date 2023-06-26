@@ -23,21 +23,22 @@ class Popup {
         this.closeForBtn();
         this.closeOutside();
         this.renderDots();
-        this.timeToOpenPopup();
-        this.timeToClosePopup();
+        // this.timeToOpenPopup();
+        // this.timeToClosePopup();
     }
-    timeToOpenPopup() {
-        setTimeout(() => {
-            this._popup.style.display = 'block';
-            this.stopScroll();
-        }, 3000);
-    }
-    timeToClosePopup() {
-        setTimeout(() => {
-            this._popup.style.display = 'none';
-            this.stopScroll();
-        }, 5000);
-    }
+    //таймауты на показ окна
+    // timeToOpenPopup() {
+    //     setTimeout(() => {
+    //         this._popup.style.display = 'block';
+    //         this.stopScroll();
+    //     }, 3000);
+    // }
+    // timeToClosePopup() {
+    //     setTimeout(() => {
+    //         this._popup.style.display = 'none';
+    //         this.stopScroll();
+    //     }, 5000);
+    // }
     renderDots() {
         let dots = '';
         Array(this._countItem + 1)

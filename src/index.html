@@ -16,10 +16,9 @@
     <body>
         <div class="container">
             <header class="header">
-
                 <div class="mobile-menu">
                     <button class="mobile-menu__btn">
-                        <img src="./assets/img/popupSlider/close.svg" alt="close">
+                        <img src="./assets/img/popupSlider/close.svg" alt="close" />
                     </button>
                     <ul class="menu">
                         <li class="menu-item">
@@ -41,7 +40,7 @@
                     <img src="./assets/img/logo.svg" alt="logo" />
                 </a>
                 <div class="header__info">
-                    <a class="info-number" href="tel:tel:+7 (812) 502-06-52" type=""
+                    <a class="info-number" href="tel:tel:+7 (812) 502-06-52"
                         >+7 (812) 502-06-52</a
                     >
                     <div class="info-social">
@@ -349,10 +348,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="scroll-bar">
-                        <span class="scroll-bar__line"></span>
-                        <div class="scroll-bar__circle"></div>
-                    </div>
+                    <input value="25" min="0" max="100" id="range" type="range" />
                 </section>
 
                 <section id="feed-back" class="form-section">
@@ -372,6 +368,7 @@
                                     name="name"
                                     id="name"
                                 />
+                                <span class="is-empty"></span>
                             </div>
                             <div class="form__item">
                                 <label for="phone">Телефон</label>
@@ -381,6 +378,7 @@
                                     name="phone"
                                     id="phone"
                                 />
+                                <span class="is-empty"></span>
                             </div>
                             <div class="form__item">
                                 <label for="email">Почта</label>
@@ -390,17 +388,19 @@
                                     name="email"
                                     id="email"
                                 />
+                                <span class="is-empty"></span>
                             </div>
                             <div class="form__item">
-                                <label for="document">Сообщение</label>
+                                <label for="message">Сообщение</label>
                                 <input
                                     placeholder="расскажите о вашем проекте"
-                                    type="document"
-                                    name="document"
-                                    id="document"
+                                    type="text"
+                                    name="message"
+                                    id="message"
                                 />
+                                <span class="is-empty"></span>
                                 <div class="form__item-btn">
-                                    <input type="file" />
+                                    <input id="document" type="file" />
                                     <button type="button">
                                         <img
                                             src="./assets/img/add-file-img.svg"
@@ -605,9 +605,12 @@
                 </div>
             </div>
         </div>
-        <script defer src="./js/script.js"></script>
+        <script defer src="https://unpkg.com/imask"></script>
         <script defer src="./js/popup.js"></script>
-        <script defer src="./js/accordion.js"></script>
+        <script defer src="./js/cases.js"></script>
         <script defer src="./js/firstSlider.js"></script>
+        <script defer src="./js/mobile-nav.js"></script>
+        <script defer src="./js/form.js"></script>
+        <!-- <script defer src="./js/accordion.js"></script> -->
     </body>
 </html>
